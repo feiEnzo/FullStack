@@ -1,0 +1,11 @@
+#canvas{
+    background-color: white;
+}
+
+#out{
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}

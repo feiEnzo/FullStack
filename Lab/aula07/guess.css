@@ -1,0 +1,30 @@
+body{
+    background-color: rebeccapurple;
+}
+
+#in{
+    background-color: gray;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    width: 600px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+#out{
+    display: flex;
+
+    padding-top: 50px;
+    align-content: center;
+    justify-content: center;
+
+}

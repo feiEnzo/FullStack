@@ -1,0 +1,52 @@
+p{
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.dotted{
+    border-style: dotted;
+}
+
+.dashed{
+    border-style: dashed;
+}
+
+.solid{
+    border-style: solid;
+}
+
+.double{
+    border-style: double;
+}
+
+.groove{
+    border-style: groove;
+}
+
+.rigid{
+    border-style: ridge;
+}
+
+.inset{
+    border-style: inset;
+}
+
+.outset{
+    border-style: outset;
+}
+
+.no-border{
+    border-style: none;
+}
+
+.hidden{
+    border-style: hidden;
+}
+
+.mixed{
+    border-style: dotted dashed solid double;
+}
+
+.box-shadow{
+    box-shadow: 10px 20px gray;
+}

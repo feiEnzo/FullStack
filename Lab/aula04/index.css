@@ -1,0 +1,38 @@
+.flex-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+#text-box{
+    background-color: rebeccapurple;
+    color: white;
+    width: 130px;
+    height: 130px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+
+}
+
+img{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
+a{
+    color: steelblue;
+
+}
