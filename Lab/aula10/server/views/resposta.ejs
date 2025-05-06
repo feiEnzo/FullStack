@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+    <link href="login.css" rel="stylesheet">
+</head>
+<body>
+<br>
+<br>
+<div class="center-text">
+<% if (registered === null) { %>
+    <% if (logged) { %>
+        <h1>Bem-vindo, <%= username %>!</h1>
+        <p>Login realizado com sucesso.</p>
+    <% } else { %>
+        <h1>Falha no login</h1>
+        <p>Usuário ou senha incorretos.</p>
+    <% } %>
+    <a href="login.html">Login</a>
+<% } else { %>
+    <% if (registered) { %>
+        <h1>Bem-vindo, <%= username %>!</h1>
+        <p>Cadastro realizado com sucesso.</p>
+    <% } else { %>
+        <h1>Falha no Cadastro</h1>
+        <p>Usuário já cadastrado.</p>
+    <% } %>
+    <a href="cadastro.html">Cadastro</a>
+<% } %>
+</div>
+</body>
+</html>

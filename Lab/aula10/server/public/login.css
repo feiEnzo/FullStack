@@ -1,0 +1,25 @@
+
+
+body{
+    background-color: #E0FBFC;
+    color: #293241;
+}
+
+h1{
+    color: #98C1D9;
+}
+
+
+.center-justify{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.center-text{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}

@@ -1,0 +1,8 @@
+/Teo/aula09/server/node_modules/*
+/.idea/FullStack.iml
+/.idea/modules.xml
+/Teo/aula09/server/package-lock.json
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/vcs.xml
+/.idea/.gitignore
+/package-lock.json
